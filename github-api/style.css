@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Source+Sans+Pro&display=swap");
+
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    text-decoration: none;
+    font-family: "Montserrat", serif, sans-serif;
+    transition: .5s all;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+img{
+    border-radius: 100%;
+    width: 250px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(179, 113, 26);
+    position: relative;
+    top: 0px;
+}
+
+.general-container{
+    position: relative;
+    top: 50px;
+    max-width: 1068px;
+    margin: auto;
+    width: 90%;    
+    color:var(--light-color);
+    /* background-color: rgba(0, 0, 0, 0.479); */
+    color: #fff;
+    text-align: center;
+}
+
+.general-container .inp, #btn{
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.general-container #btn{
+    margin: 0rem;
+    cursor: pointer;
+}
+
+.general-container #btn:hover{
+    background-color: rgb(179, 113, 26);
+    color: #fff;
+    /* padding: 0rem; */
+}
